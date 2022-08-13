@@ -12,7 +12,7 @@
     background-position: center;
     position: relative;
     background-size:cover;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/photos/banner.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.tripsavvy.com/thmb/Cl7U1HozQ3PucU5SHQDH9kxPLOI=/900x0/filters:no_upscale():max_bytes(150000):strip_icc():gifv():format(webp)/new-haven-ct-getty-5b6a37f4c9e77c0050caf5f5.jpg");
     position: relative;
     background-color: #fff;
 
