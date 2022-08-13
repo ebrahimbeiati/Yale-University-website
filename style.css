@@ -12,7 +12,7 @@
     background-position: center;
     position: relative;
     background-size:cover;
-    background-image: url(photos/banner.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(photos/banner.jpg);
     position: relative;
     background-color: #fff;
 
@@ -70,7 +70,7 @@ nav img{
 }
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 24px;
     color: #fff;
 }
 .hero-btn{
@@ -254,13 +254,13 @@ h3{
     }
     /*------testimonials------*/
     .testimonials {
-        width: 70%;
+        width: 100%;
         margin: auto;
-        padding: 80px;
+        padding: 40px;
         text-align: center;
     }
     .testimonial-col{
-        flex-basis: 35%;
+        flex-basis: 44%;
         border-radius: 20px;
         margin-bottom: 5%;
         text-align: left;
@@ -268,7 +268,7 @@ h3{
         padding:  10px;
         cursor: pointer;
         display: flex;
-        justify-content: space-between;
+
  
     }
     .testimonial-col img{
@@ -289,6 +289,7 @@ h3{
         color: #f44336;
 
     }
+   
     @media(max-width: 600px){
         .testimonial-col img{
             margin-left: 0px;
